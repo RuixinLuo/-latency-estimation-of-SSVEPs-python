@@ -31,7 +31,7 @@ def freqDomian(signal, fs, nfft):
     """
 
     mf = fft(detrend(signal), nfft)
-    phiAns = np.angle(mf , deg=True) - 180  # why -180
+    phiAns = np.angle(mf , deg=True) 
     freqAns = abs(mf) * 2 / len(signal)
     f = np.arange(0, len(mf), 1) * fs / len(mf)
     f = np.around(f, decimals=2 )
