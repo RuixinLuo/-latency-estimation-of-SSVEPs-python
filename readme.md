@@ -18,7 +18,7 @@
 
 #### the result is same as the source code from https://github.com/iqgnat/SSVEP_phase_latency
 
-#### ***2022.6.23  we delete -180 when solving for the phase, which is different from the source code.
+##### ***2022.6.23  we delete -180 when solving for the phase, which is different from the source code.
 
 ## Acknowledgement
 
